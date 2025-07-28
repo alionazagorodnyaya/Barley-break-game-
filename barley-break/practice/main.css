@@ -1,0 +1,58 @@
+.barley-break {
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+	border-radius: 10px;
+}
+.row {
+	display: flex;
+}
+
+.row div {
+	color: white;
+	background-color: rgb(0, 60, 255);
+	border-radius: 3px;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game__button {
+	display: flex;
+	flex-direction: column;
+}
+.rules-text {
+	margin-top: 20px;
+	padding: 10px;
+	display: none;
+}
+.statistic-text {
+	display: none;
+}
+.close-statistics {
+	display: none;
+}
+.statistic-content {
+	margin: 20px;
+	width: 50%;
+}
+.btn-controllers__btn {
+	background-color: blue;
+	color: white;
+	width: 100px;
+}
+.btn-controllers {
+	background-color: black;
+}
+.close-statistics {
+	background-color: blue;
+	color: white;
+}
+.close-rules {
+	background-color: blue;
+	color: white;
+}
